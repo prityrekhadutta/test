@@ -31,11 +31,12 @@ public class HomepageTest extends Base
 	@BeforeTest
 	public void beforeTest() throws IOException
 	{
-		
+		lg.info("hi");
 		driver= initializeDriver();
 		lg.info("Driver is intialize" );
 		driver.get(prop.getProperty("url"));
-		lg.info("Navigate to home page");
+		lg.info("Navigate to home page");lg.info("hi");
+		lg.info("hi");
 	}
 
 	
