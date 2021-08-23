@@ -72,7 +72,7 @@ public class HomepageTest extends Base
 			String str = menulist.get(i).getText();
 			//System.out.println(str);
 			Assert.assertTrue(menuOneitem.isDisplayed()) ;
-			
+			lg.debug( " got list");
 		}
 		 
 	}
@@ -100,6 +100,7 @@ public class HomepageTest extends Base
 				String title =driver.getTitle();
 				System.out.println( "title is "+title);
 				driver.close();	
+				lg.debug( " got list");
 			}
 			
 		}
