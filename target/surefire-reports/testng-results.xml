@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-04T22:05:54 IST" name="Suite" finished-at="2021-08-04T22:06:14 IST" duration-ms="19725">
+    <groups>
+    </groups>
+    <test started-at="2021-08-04T22:05:54 IST" name="homepagevalidation" finished-at="2021-08-04T22:06:08 IST" duration-ms="14018">
+      <class name="Academy.HomepageTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:05:54 IST" name="beforeTest" finished-at="2021-08-04T22:06:08 IST" duration-ms="13773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="FeatureTextCheck()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:06:08 IST" name="FeatureTextCheck" finished-at="2021-08-04T22:06:08 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeatureTextCheck -->
+        <test-method signature="checkMenuBarContact()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:06:08 IST" name="checkMenuBarContact" finished-at="2021-08-04T22:06:08 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMenuBarContact -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:06:08 IST" name="afterTest" finished-at="2021-08-04T22:06:08 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Academy.HomepageTest -->
+    </test> <!-- homepagevalidation -->
+    <test started-at="2021-08-04T22:06:09 IST" name="Loginvalidation" finished-at="2021-08-04T22:06:14 IST" duration-ms="5455">
+      <class name="Academy.Loginpagetest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:09 IST" name="beforeTest" finished-at="2021-08-04T22:06:11 IST" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="homepagelogin(java.lang.String,java.lang.String)[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:11 IST" name="homepagelogin" data-provider="getdata" finished-at="2021-08-04T22:06:13 IST" duration-ms="2044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prity.dutta101@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagelogin -->
+        <test-method signature="homepagelogin(java.lang.String,java.lang.String)[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:13 IST" name="homepagelogin" data-provider="getdata" finished-at="2021-08-04T22:06:14 IST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Himanagshu86@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[098754]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagelogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:14 IST" name="afterTest" finished-at="2021-08-04T22:06:14 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Academy.Loginpagetest -->
+    </test> <!-- Loginvalidation -->
+  </suite> <!-- Suite -->
+</testng-results>

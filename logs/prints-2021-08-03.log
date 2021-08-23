@@ -1,0 +1,7 @@
+19:26:59.828 [main] INFO  Academy.HomepageTest - getting the title
+19:26:59.860 [main] INFO  Academy.HomepageTest - comparing the title
+19:26:59.878 [main] INFO  Academy.HomepageTest - getting the size
+19:26:59.879 [main] INFO  Academy.HomepageTest - checking if all the element is displayed
+19:27:01.180 [main] ERROR Academy.Loginpagetest - getting the username
+19:27:01.206 [main] INFO  Academy.Loginpagetest - getting the password
+19:27:01.312 [main] INFO  Academy.Loginpagetest - click loginbutton

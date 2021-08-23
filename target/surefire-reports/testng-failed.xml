@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listener"/>
+  </listeners>
+  <test thread-count="5" name="homepagevalidation(failed)" verbose="0">
+    <classes>
+      <class name="Academy.HomepageTest">
+        <methods>
+          <include name="FeatureTextCheck"/>
+          <include name="checkMenuBarContact"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Academy.HomepageTest -->
+    </classes>
+  </test> <!-- homepagevalidation(failed) -->
+  <test thread-count="5" name="Loginvalidation(failed)" verbose="0">
+    <classes>
+      <class name="Academy.Loginpagetest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="homepagelogin"/>
+        </methods>
+      </class> <!-- Academy.Loginpagetest -->
+    </classes>
+  </test> <!-- Loginvalidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

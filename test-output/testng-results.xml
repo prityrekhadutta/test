@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-05T21:38:17 IST" name="Default suite" finished-at="2021-08-05T21:39:07 IST" duration-ms="50324">
+    <groups>
+    </groups>
+    <test started-at="2021-08-05T21:38:17 IST" name="Default test" finished-at="2021-08-05T21:39:07 IST" duration-ms="50324">
+      <class name="Academy.HomepageTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.HomepageTest@16414e40]" started-at="2021-08-05T21:38:17 IST" name="beforeTest" finished-at="2021-08-05T21:39:05 IST" duration-ms="48763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="FeatureTextCheck()[pri:0, instance:Academy.HomepageTest@16414e40]" started-at="2021-08-05T21:39:05 IST" name="FeatureTextCheck" finished-at="2021-08-05T21:39:05 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeatureTextCheck -->
+        <test-method signature="checkMenuBarContact()[pri:0, instance:Academy.HomepageTest@16414e40]" started-at="2021-08-05T21:39:05 IST" name="checkMenuBarContact" finished-at="2021-08-05T21:39:06 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMenuBarContact -->
+        <test-method signature="menubarnav()[pri:0, instance:Academy.HomepageTest@16414e40]" started-at="2021-08-05T21:39:06 IST" name="menubarnav" finished-at="2021-08-05T21:39:06 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menubarnav -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Academy.HomepageTest@16414e40]" started-at="2021-08-05T21:39:06 IST" name="afterTest" finished-at="2021-08-05T21:39:07 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Academy.HomepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
