@@ -114,8 +114,11 @@ public class HomepageTest extends Base
 	public void afterTest()
 	{
 		lg.debug( " got list");
+		lg.debug( " got list");lg.debug( " got list");
+		lg.debug( " got list");lg.debug( " got list");
 		driver.close();
-		lg.debug( " got list");
+
+
 	}
 	
 	
