@@ -101,6 +101,9 @@ public class HomepageTest extends Base
 				System.out.println( "title is "+title);
 				driver.close();	
 				lg.debug( " got list");
+				lg.debug( " got list");
+				lg.debug( " got list");
+				lg.debug( " got list");
 			}
 			
 		}
@@ -110,7 +113,9 @@ public class HomepageTest extends Base
 	@AfterTest
 	public void afterTest()
 	{
+		lg.debug( " got list");
 		driver.close();
+		lg.debug( " got list");
 	}
 	
 	
