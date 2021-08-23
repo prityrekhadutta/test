@@ -50,6 +50,8 @@ public class HomepageTest extends Base
 	    lg.info("comparing the title");
 	    Assert.assertEquals(str,"FEATURED COURSES");
 	    lg.info("comparing the title pass");
+	    lg.info("hi");
+		lg.info("hi");
 	}
 	
 	
