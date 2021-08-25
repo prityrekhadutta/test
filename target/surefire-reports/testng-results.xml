@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-04T22:05:54 IST" name="Suite" finished-at="2021-08-04T22:06:14 IST" duration-ms="19725">
+  <suite started-at="2021-08-25T15:49:41 IST" name="Suite" finished-at="2021-08-25T15:49:57 IST" duration-ms="16644">
     <groups>
     </groups>
-    <test started-at="2021-08-04T22:05:54 IST" name="homepagevalidation" finished-at="2021-08-04T22:06:08 IST" duration-ms="14018">
+    <test started-at="2021-08-25T15:49:41 IST" name="homepagevalidation" finished-at="2021-08-25T15:49:49 IST" duration-ms="8490">
       <class name="Academy.HomepageTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:05:54 IST" name="beforeTest" finished-at="2021-08-04T22:06:08 IST" duration-ms="13773" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.HomepageTest@5b444398]" started-at="2021-08-25T15:49:41 IST" name="beforeTest" finished-at="2021-08-25T15:49:46 IST" duration-ms="5222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="FeatureTextCheck()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:06:08 IST" name="FeatureTextCheck" finished-at="2021-08-04T22:06:08 IST" duration-ms="34" status="PASS">
+        <test-method signature="FeatureTextCheck()[pri:0, instance:Academy.HomepageTest@5b444398]" started-at="2021-08-25T15:49:46 IST" name="FeatureTextCheck" finished-at="2021-08-25T15:49:46 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FeatureTextCheck -->
-        <test-method signature="checkMenuBarContact()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:06:08 IST" name="checkMenuBarContact" finished-at="2021-08-04T22:06:08 IST" duration-ms="163" status="PASS">
+        <test-method signature="checkMenuBarContact()[pri:0, instance:Academy.HomepageTest@5b444398]" started-at="2021-08-25T15:49:46 IST" name="checkMenuBarContact" finished-at="2021-08-25T15:49:46 IST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuBarContact -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Academy.HomepageTest@75459c75]" started-at="2021-08-04T22:06:08 IST" name="afterTest" finished-at="2021-08-04T22:06:08 IST" duration-ms="26" status="PASS">
+        <test-method signature="menubarnav()[pri:0, instance:Academy.HomepageTest@5b444398]" started-at="2021-08-25T15:49:46 IST" name="menubarnav" finished-at="2021-08-25T15:49:48 IST" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menubarnav -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Academy.HomepageTest@5b444398]" started-at="2021-08-25T15:49:48 IST" name="afterTest" finished-at="2021-08-25T15:49:49 IST" duration-ms="787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Academy.HomepageTest -->
     </test> <!-- homepagevalidation -->
-    <test started-at="2021-08-04T22:06:09 IST" name="Loginvalidation" finished-at="2021-08-04T22:06:14 IST" duration-ms="5455">
+    <test started-at="2021-08-25T15:49:49 IST" name="Loginvalidation" finished-at="2021-08-25T15:49:57 IST" duration-ms="7922">
       <class name="Academy.Loginpagetest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:09 IST" name="beforeTest" finished-at="2021-08-04T22:06:11 IST" duration-ms="2348" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Academy.Loginpagetest@40499e4f]" started-at="2021-08-25T15:49:49 IST" name="beforeTest" finished-at="2021-08-25T15:49:54 IST" duration-ms="4795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="homepagelogin(java.lang.String,java.lang.String)[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:11 IST" name="homepagelogin" data-provider="getdata" finished-at="2021-08-04T22:06:13 IST" duration-ms="2044" status="PASS">
+        <test-method signature="homepagelogin(java.lang.String,java.lang.String)[pri:0, instance:Academy.Loginpagetest@40499e4f]" started-at="2021-08-25T15:49:54 IST" name="homepagelogin" data-provider="getdata" finished-at="2021-08-25T15:49:56 IST" duration-ms="1678" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagelogin -->
-        <test-method signature="homepagelogin(java.lang.String,java.lang.String)[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:13 IST" name="homepagelogin" data-provider="getdata" finished-at="2021-08-04T22:06:14 IST" duration-ms="1019" status="PASS">
+        <test-method signature="homepagelogin(java.lang.String,java.lang.String)[pri:0, instance:Academy.Loginpagetest@40499e4f]" started-at="2021-08-25T15:49:56 IST" name="homepagelogin" data-provider="getdata" finished-at="2021-08-25T15:49:57 IST" duration-ms="836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagelogin -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Academy.Loginpagetest@58ebfd03]" started-at="2021-08-04T22:06:14 IST" name="afterTest" finished-at="2021-08-04T22:06:14 IST" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Academy.Loginpagetest@40499e4f]" started-at="2021-08-25T15:49:57 IST" name="afterTest" finished-at="2021-08-25T15:49:57 IST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

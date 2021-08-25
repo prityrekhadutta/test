@@ -1,0 +1,7 @@
+15:49:52.980 [main] INFO  Academy.Loginpagetest - Driver is intialize
+15:49:54.535 [main] INFO  Academy.Loginpagetest - Navigate to home page
+15:49:55.906 [main] ERROR Academy.Loginpagetest - getting the username
+15:49:55.922 [main] INFO  Academy.Loginpagetest - getting the password
+15:49:56.021 [main] INFO  Academy.Loginpagetest - click loginbutton
+15:49:56.857 [main] ERROR Academy.Loginpagetest - getting the username
+15:49:56.874 [main] INFO  Academy.Loginpagetest - getting the password

@@ -1,6 +1,0 @@
-20:18:46.907 [TestNG-tests-2] INFO  Academy.Loginpagetest - Navigate to home page
-20:18:46.957 [TestNG-tests-1] INFO  Academy.HomepageTest - Navigate to home page
-20:18:46.960 [TestNG-tests-1] INFO  Academy.HomepageTest - getting the title
-20:18:46.992 [TestNG-tests-1] INFO  Academy.HomepageTest - comparing the title
-20:18:47.021 [TestNG-tests-1] INFO  Academy.HomepageTest - getting the size
-20:18:47.022 [TestNG-tests-1] INFO  Academy.HomepageTest - checking if all the element is displayed

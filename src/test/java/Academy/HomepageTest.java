@@ -35,7 +35,8 @@ public class HomepageTest extends Base
 		driver= initializeDriver();
 		lg.info("Driver is intialize" );
 		driver.get(prop.getProperty("url"));
-		lg.info("Navigate to home page");lg.info("hi");
+		lg.info("Navigate to home page");
+		lg.info("hi");
 		lg.info("hi");
 	}
 

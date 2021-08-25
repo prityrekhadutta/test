@@ -32,13 +32,13 @@ public class Base
         prop.load(fis);
         
         String baseurl=prop.getProperty("url");
-        String browserName=prop.getProperty("browser");
-        //String browserName = System.getProperty("browser");
+        //String browserName=prop.getProperty("browser");
+        String browserName = System.getProperty("browser");
         if (browserName.contains("chrome"))
          {
     	   System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver\\chromedriver.exe");
     	   ChromeOptions cp = new ChromeOptions();
-    	   cp.addArguments("headless");
+    	   //cp.addArguments("headless");
     	   if(browserName.contains("headless"))
     		{
     		   cp.addArguments("headless");
@@ -52,7 +52,9 @@ public class Base
          driver=new FirefoxDriver();
     
          }
+        
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+       
         return driver;
        
        

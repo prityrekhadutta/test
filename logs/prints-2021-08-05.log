@@ -1,7 +1,0 @@
-20:14:31.825 [main] INFO  Academy.HomepageTest - comparing the title pass
-20:14:31.846 [main] INFO  Academy.HomepageTest - getting the size
-20:14:31.847 [main] INFO  Academy.HomepageTest - checking if all the element is displayed
-21:38:00.460 [main] INFO  Academy.HomepageTest - Driver is intialize
-21:38:20.639 [main] INFO  Academy.HomepageTest - Driver is intialize
-21:39:05.820 [main] INFO  Academy.HomepageTest - Navigate to home page
-21:39:05.855 [main] INFO  Academy.HomepageTest - getting the title

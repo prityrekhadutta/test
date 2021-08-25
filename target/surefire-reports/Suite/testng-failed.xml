@@ -10,6 +10,7 @@
         <methods>
           <include name="FeatureTextCheck"/>
           <include name="checkMenuBarContact"/>
+          <include name="menubarnav"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>

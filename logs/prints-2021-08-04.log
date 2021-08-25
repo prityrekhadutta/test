@@ -1,7 +1,0 @@
-22:06:08.767 [main] INFO  Academy.HomepageTest - getting the size
-22:06:08.771 [main] INFO  Academy.HomepageTest - checking if all the element is displayed
-22:06:10.208 [main] INFO  Academy.Loginpagetest - Driver is intialize
-22:06:11.540 [main] INFO  Academy.Loginpagetest - Navigate to home page
-22:06:13.377 [main] ERROR Academy.Loginpagetest - getting the username
-22:06:13.422 [main] INFO  Academy.Loginpagetest - getting the password
-22:06:13.509 [main] INFO  Academy.Loginpagetest - click loginbutton
